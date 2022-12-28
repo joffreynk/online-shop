@@ -1,11 +1,13 @@
+import Header from './header/Header';
 import './index.css';
 
 
 const App = () => {
     return (
-        <h1 className='text-blue-500'>
+        <div className='text-blue-500'>
+            <Header />
             Hello world
-        </h1>
+        </div>
     )
 }
 
