@@ -6,7 +6,7 @@ import {ImMenu} from 'react-icons/im'
 
 const HeaderTitles = () => {
   return (
-    <div className='flex justify-between absolute z-50 top-5 left-5 right-5  ' >
+    <div className='sticky top-0 p-5 flex items-start justify-between max-w-5xl mx-auto z-50' >
         <p>ecommerce</p>
         
         <ul className='flex  text-lg'>
@@ -29,7 +29,6 @@ const HeaderTitles = () => {
             <li><BsHeart /></li>
             <li> <BsCartCheck/></li>
         </ul>
-        
     </div>
   )
 }

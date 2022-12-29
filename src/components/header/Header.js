@@ -1,20 +1,16 @@
 import React from 'react'
-import HeaderTitles from './HeaderTitles'
-import mypic from './backgroundheader.jpeg'
+import shoping from '../../shopping/shop.png'
+
 
 const Header = () => {
   return (
-    <header >
-      <div className="relative">
-
-        <HeaderTitles />
-        <img
-        src={mypic}
-        alt='my'
-        className='z-1 object-fill w-full h-fit'
-        />
+    <header className='relative bottom-2 flex flex-col justify-between items-end ' >
+      <p>
+        some textsare here
+      </p>
+      <div>
+        <img src={shoping} alt='' width={200} height={300} />
       </div>
-        
     </header>
   )
 }
